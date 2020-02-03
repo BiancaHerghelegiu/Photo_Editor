@@ -1,0 +1,140 @@
+﻿body {
+    background:linear-gradient(#A3BFA8,#CFFFE5) no-repeat center center fixed;
+    background-size:cover;
+    
+  
+}
+
+.buttons{
+    clear:both;
+    
+}
+#imagine{
+    border: 2px dashed #ccc;
+    background-color:white;
+    border-radius:20px;
+    /*margin:100px auto;*/
+    margin-top:70px;
+    margin-left:50px;
+    border-color:forestgreen;
+    
+}
+input[type="button"]{
+    /*float:right;*/
+    background-color:transparent;
+    margin-top:50px;
+}
+
+#btnSave{
+    background-image:linear-gradient(#A5C882,#678D58);
+    padding:15px 50px 15px 50px ;
+    font-size:12px;
+    font-family:Helvetica;
+    border-radius:50px;
+    font-weight:100;
+    color:white;
+    margin-right:10px;
+    border:none;
+    cursor:pointer;
+    
+}
+#btnSave:hover{
+    background-image:linear-gradient(#8FD694,#84A98C);
+}
+#btnSave:active{
+    transform:translateY(3px);
+}
+#btnClear{
+    background-image:linear-gradient(#A5C882,#678D58);
+    padding:15px 50px 15px 50px ;
+    font-size:12px;
+    font-family:Helvetica;
+    border-radius:50px;
+    font-weight:100;
+    color:white;
+    margin-right:10px;
+    border:none;
+    cursor:pointer;
+    
+}
+#btnClear:hover{
+    background-image:linear-gradient(#8FD694,#84A98C);
+}
+#btnClear:active{
+    transform:translateY(3px);
+}
+#btnCrop{
+    background-image:linear-gradient(#A5C882,#678D58);
+    padding:15px 50px 15px 50px ;
+    font-size:12px;
+    font-family:Helvetica;
+    border-radius:50px;
+    font-weight:100;
+    color:white;
+    margin-right:10px;
+    border:none;
+    cursor:pointer;
+}
+#btnCrop:hover{
+    background-image:linear-gradient(#8FD694,#84A98C);
+}
+#btnCrop:active{
+    transform:translateY(3px);
+}
+#btnScaling{
+    background-image:linear-gradient(#A5C882,#678D58);
+    padding:15px 50px 15px 50px ;
+    font-size:12px;
+    font-family:Helvetica;
+    border-radius:50px;
+    font-weight:100;
+    color:white;
+    margin-right:120px;
+    border:none;
+    cursor:pointer;
+}
+#btnScaling:active{
+    transform:translateY(3px);
+}
+#btnScaling:hover{
+    background-image:linear-gradient(#8FD694,#84A98C);
+
+}
+form{
+    float:right;
+    
+}
+#tbwidth{
+ 
+    margin-top:200px;
+    margin-left:90%;
+    border-radius:50px;
+     padding:10px 30px 10px 30px ;
+}
+#tbheight{
+    
+    display:block;
+    margin-top:10px;
+    margin-left:90%;
+    border-radius:50px;
+     padding:10px 30px 10px 30px ;
+
+}
+#btnCropWithValues{
+    margin-left: 100%;
+    background-image:linear-gradient(#A5C882,#678D58);
+    padding:15px 50px 15px 50px ;
+    font-size:12px;
+    font-family:Helvetica;
+    border-radius:50px;
+    font-weight:100;
+    color:white;
+    border:none;
+}
+#btnCropWithValues:active{
+    transform:translateY(3px);
+}
+#btnCropWithValues:hover{
+    background-image:linear-gradient(#8FD694,#84A98C);
+
+}
